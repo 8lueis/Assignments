@@ -1,0 +1,65 @@
+/* 헤더 값 지정 */
+header {
+    width: 920px;
+    padding: 20px;
+}
+
+/* 헤더 내 타이틀 이미지 크기, 위치 지정 */
+#headerImg {
+    width: 300px;
+    margin: 20px 0 20px 300px;
+
+}
+
+/* 바디 기본 값 지정 + 그라데이션 배경 지정 */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, white 5%, rgb(169, 214, 231));
+}
+
+/* 컨포넌트 캐러셀 크기 + 위치 지정 */
+#carouselExampleControls {
+    width: 800px;
+    padding: 0;
+    margin: 0 0 50px 50px;
+}
+
+/* 웹 레이아웃 설정 */
+#layout {
+    width: 940px;
+    margin: 0 auto;
+    height: 3500px;
+    padding: 0 20px;
+}
+
+/* 컨포넌트 네비 호버 반응 지정 */
+.nav-item>a:hover {
+    color: rgb(250, 195, 233)
+}
+
+/* 컨포넌트 네비 위치 지정 */
+.nav-item {
+    margin: 20px 0 50px 0;
+}
+
+/* 컨포넌트 스크롤 스파이 위치 + 배경 색 + 테두리 지정 */
+.row {
+    margin: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 40px;
+    border-radius: 50px;
+}
+
+/* 컨포넌트 페이지네이션 위치 지정  */
+nav {
+    margin: 0 0 0 400px;
+}
+
+/* 미디어쿼리 지정 */
+@media (max-width:600px) {
+    #layout {
+        display: block;
+    }
+
+}
